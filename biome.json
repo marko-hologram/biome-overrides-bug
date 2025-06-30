@@ -50,7 +50,7 @@
 	"overrides": [
 		{
 			"includes": [
-				"override/**/*.js"
+				"src/overrides/**/*.ts"
 			],
 			"javascript": {
 				"formatter": {
