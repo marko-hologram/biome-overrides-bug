@@ -16,7 +16,7 @@
 	},
 	"formatter": {
 		"includes": [
-			"**/*.js",
+			"**/*.ts",
 			"**/*.json"
 		]
 	},
