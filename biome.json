@@ -26,7 +26,8 @@
 			"expand": "always",
 			"lineWidth": 160,
 			"indentWidth": 4,
-			"indentStyle": "tab"
+			"indentStyle": "tab",
+			"bracketSpacing": false
 		}
 	},
 	"javascript": {
@@ -58,6 +59,17 @@
 					"quoteStyle": "single",
 					"expand": "never",
 					"lineWidth": 300
+				}
+			}
+		},
+		{
+			"includes": [
+				"src/overrides/**/*.json"
+			],
+			"json": {
+				"formatter": {
+					"bracketSpacing": true,
+					"expand": "never"
 				}
 			}
 		}
